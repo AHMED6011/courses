@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'El Messiri', sans-serif;
+  background-color: #eeeeee;
+}
+
+.content {
+  padding: 0 20px;
+}
+
+header {
+  padding-right: 20px !important;
+}
+
+@media (min-width: 992px) {
+  .content {
+    padding: 0px 20px;
+  }
+}
+@media (max-width: 767px) {
+  .content {
+    padding: 0;
+  }
+  header {
+    padding-right: 0px !important;
+  }
+}
+
+.header-title {
+  color: #291a6b;
+  width: fit-content;
+  border-bottom: 5px solid #dc3545;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+}
+
+.custom-card {
+  transition: 0.3s;
+  filter: grayscale(0.5);
+
+  &:hover {
+    transform: scale(1.05);
+    filter: grayscale(0);
+  }
+  .card {
+    box-shadow: 5px 10px 5px 0px #c5c1c1;
+    text-decoration: none;
+
+    width: 100%;
+    & img {
+      height: 230px;
+    }
+
+    & .card-body {
+      height: 330px;
+
+      & .card-title {
+        font-size: 22px;
+      }
+      & .card-text {
+        text-align: center;
+        font-size: 18px;
+        padding: 20px 0;
+        line-height: 1.9;
+      }
+    }
+  }
+}
