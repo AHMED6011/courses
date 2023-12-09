@@ -27,7 +27,7 @@
         </div>
 
         <div class="logo d-lg-none d-flex">
-          <RouterLink class="navbar-brand fs-2" :to="{ name: 'home' }">
+          <RouterLink class="navbar-brand fs-3" :to="{ name: 'home' }">
             <span class="text-danger">AHMED</span>
             <span class="text-light">_A_A_A</span>
           </RouterLink>
@@ -81,14 +81,14 @@
             </li>
 
             <li class="nav-item">
-              <a class="nav-link text-white" href="/about-us">من نحن</a>
+              <button class="nav-link text-white" @click="goToAbout">من نحن</button>
             </li>
             <li class="nav-item">
               <a class="nav-link text-white" href="#singup-section">اتصلوا بنا</a>
             </li>
           </ul>
           <div class="logo d-none d-md-flex">
-            <RouterLink class="navbar-brand fs-2" :to="{ name: 'home' }">
+            <RouterLink class="navbar-brand fs-3" :to="{ name: 'home' }">
               <span class="text-danger">AHMED</span>
               <span class="text-light">_A_A_A</span>
             </RouterLink>
@@ -111,7 +111,7 @@
             aria-label="Close"
           ></button>
           <div class="logo">
-            <RouterLink class="navbar-brand fs-2" :to="{ name: 'home' }">
+            <RouterLink class="navbar-brand fs-3" :to="{ name: 'home' }">
               <span class="text-danger">AHMED</span>
               <span class="text-light">_A_A_A</span>
             </RouterLink>
@@ -127,7 +127,7 @@
               </li>
 
               <li class="nav-item">
-                <a class="nav-link text-white" href="/about-us">من نحن</a>
+                <button class="nav-link text-white" @click="goToAbout">من نحن</button>
               </li>
               <li class="nav-item">
                 <a class="nav-link text-white" href="#singup-section">اتصلوا بنا</a>
@@ -198,7 +198,18 @@
 import { RouterLink } from 'vue-router'
 export default {
   name: 'NavBar',
-  components: { RouterLink }
+  components: { RouterLink },
+  methods: {
+    goToAbout() {
+      if (window.innerWidth <= 567) {
+        window.scrollTo(0, 6000)
+        console.log('We Got It With 567')
+      } else {
+        window.scrollTo(0, 3000)
+        console.log('We Got It With Normal Width')
+      }
+    }
+  }
 }
 </script>
 

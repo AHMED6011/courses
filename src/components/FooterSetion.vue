@@ -2,13 +2,16 @@
   <div class="footer bg-white p-3">
     <div class="row">
       <div class="col-md-6 social-media">
-        <a href="#https://www.facebook.com/AHMED_A_A_Amedia" target="_blank" class="facebook"
-          ><i class="fa-brands fa-facebook"></i
+        <a
+          href="https://www.linkedin.com/in/ahmed-allawi-608994241/"
+          target="_blank"
+          class="linkedin"
+          ><i class="fa-brands fa-linkedin-in"></i
         ></a>
-        <a href="https://www.instagram.com/AHMED_A_A_Amedia/" target="_blank" class="instagram"
+        <a href="https://www.instagram.com/ahmed1allawi/" target="_blank" class="instagram"
           ><i class="fa-brands fa-instagram"></i
         ></a>
-        <a href="https://wa.me/05343303111" target="_blank" class="whatsapp"
+        <a href="https://wa.me/05550983722" target="_blank" class="whatsapp"
           ><i class="fa-brands fa-whatsapp"></i
         ></a>
       </div>

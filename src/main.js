@@ -19,6 +19,10 @@ app.config.globalProperties.$toUpCourses = () => {
   }, 100)
 }
 
+// app.config.globalProperties.$goToAbout = () => {
+//   window.scrollTo(0, 2500)
+// }
+
 app.use(router)
 
 app.mount('#app')

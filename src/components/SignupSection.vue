@@ -1,116 +1,118 @@
 <template>
-  <div
-    class="signup mb-5 rounded d-flex align-items-lg-end align-items-start justify-content-center justify-content-lg-start"
-  >
-    <div class="title justify-content-center justify-content-lg-end text-center text-lg-end">
-      <p>لنبقى على تواصل</p>
-      <h4 class="text-danger">اتصلوا بنا</h4>
-    </div>
-  </div>
-  <div class="container">
-    <div class="row justify-content-between">
-      <div class="col-lg-6 col-12 d-flex d-lg-none">
-        <div class="parent-form">
-          <form class="form-part">
-            <div class="mb-3">
-              <input type="text" class="form-control" placeholder="الاسم الأول" />
-            </div>
-            <div class="mb-3">
-              <input type="text" class="form-control" placeholder="الاسم الثاني" />
-            </div>
-            <div class="mb-3">
-              <input type="email" class="form-control" placeholder="البريد الالكتروني" />
-            </div>
-            <div class="mb-3">
-              <input
-                type="phone"
-                dir="ltr"
-                class="form-control text-end"
-                placeholder="0555 555 55 55"
-              />
-            </div>
-            <div class="mb-3">
-              <textarea placeholder="الرسالة"></textarea>
-            </div>
-            <button class="btn btn-danger fs-5">ارسل</button>
-          </form>
-        </div>
-      </div>
-      <div class="col-lg-5 col-12">
-        <div class="text-part p-3 rounded">
-          <div class="item">
-            <div class="item-text">
-              <p>البريد الالكتروني</p>
-              <p>info@example.com</p>
-            </div>
-            <div class="bg-danger primary_bg">
-              <i class="fa-solid fa-envelope primary_bg"></i>
-            </div>
-          </div>
-          <div class="item">
-            <div class="item-text">
-              <p>اتصال هاتفي</p>
-              <p>0555 555 55 55</p>
-            </div>
-            <div class="bg-danger primary_bg">
-              <i class="fa-solid fa-phone primary_bg"></i>
-            </div>
-          </div>
-          <div class="item">
-            <div class="item-text">
-              <p>واتس أب</p>
-              <p>+90 555 555 55 55</p>
-            </div>
-            <div class="bg-danger primary_bg">
-              <i class="fa-brands fa-whatsapp primary_bg"></i>
-            </div>
-          </div>
-          <div class="item">
-            <div class="item-text">
-              <p>العنوان</p>
-              <p>سفير بارك, اسينيورت, اسطنبول</p>
-            </div>
-            <div class="bg-danger primary_bg">
-              <i class="fa-solid fa-location-dot primary_bg"></i>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-6 col-12 d-none d-lg-flex">
-        <div class="parent-form">
-          <form method="post" class="form-part">
-            <div class="mb-3">
-              <input type="text" class="form-control" placeholder="الاسم الأول" />
-            </div>
-            <div class="mb-3">
-              <input type="text" class="form-control" placeholder="الاسم الثاني" />
-            </div>
-            <div class="mb-3">
-              <input type="email" class="form-control" placeholder="البريد الالكتروني" />
-            </div>
-            <div class="mb-3">
-              <input
-                type="phone"
-                dir="ltr"
-                class="form-control text-end"
-                placeholder="0555 555 55 55"
-              />
-            </div>
-            <div class="mb-3">
-              <textarea placeholder="الرسالة"></textarea>
-            </div>
-            <button class="btn btn-danger fs-5">
-              <a
-                class="link-offset-2 link-underline link-underline-opacity-0 text-light"
-                href="mailto:your@email.com?subject=Contact%20Form%20Submission&body=Email:%20"
-                >ارسل</a
-              >
-            </button>
-          </form>
-        </div>
+  <main>
+    <div
+      class="signup mb-5 rounded d-flex align-items-lg-end align-items-start justify-content-center justify-content-lg-start"
+    >
+      <div class="title justify-content-center justify-content-lg-end text-center text-lg-end">
+        <p>لنبقى على تواصل</p>
+        <h4 class="text-danger">اتصلوا بنا</h4>
       </div>
     </div>
-  </div>
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-lg-6 col-12 d-flex d-lg-none">
+          <div class="parent-form">
+            <form class="form-part">
+              <div class="mb-3">
+                <input type="text" class="form-control" placeholder="الاسم الأول" />
+              </div>
+              <div class="mb-3">
+                <input type="text" class="form-control" placeholder="الاسم الثاني" />
+              </div>
+              <div class="mb-3">
+                <input type="email" class="form-control" placeholder="البريد الالكتروني" />
+              </div>
+              <div class="mb-3">
+                <input
+                  type="phone"
+                  dir="ltr"
+                  class="form-control text-end"
+                  placeholder="0555 555 55 55"
+                />
+              </div>
+              <div class="mb-3">
+                <textarea placeholder="الرسالة"></textarea>
+              </div>
+              <button class="btn btn-danger fs-5">ارسل</button>
+            </form>
+          </div>
+        </div>
+        <div class="col-lg-5 col-12">
+          <div class="text-part p-3 rounded">
+            <div class="item">
+              <div class="item-text">
+                <p>البريد الالكتروني</p>
+                <p>info@example.com</p>
+              </div>
+              <div class="bg-danger primary_bg">
+                <i class="fa-solid fa-envelope primary_bg"></i>
+              </div>
+            </div>
+            <div class="item">
+              <div class="item-text">
+                <p>اتصال هاتفي</p>
+                <p>0555 555 55 55</p>
+              </div>
+              <div class="bg-danger primary_bg">
+                <i class="fa-solid fa-phone primary_bg"></i>
+              </div>
+            </div>
+            <div class="item">
+              <div class="item-text">
+                <p>واتس أب</p>
+                <p>+90 555 555 55 55</p>
+              </div>
+              <div class="bg-danger primary_bg">
+                <i class="fa-brands fa-whatsapp primary_bg"></i>
+              </div>
+            </div>
+            <div class="item">
+              <div class="item-text">
+                <p>العنوان</p>
+                <p>سفير بارك, اسينيورت, اسطنبول</p>
+              </div>
+              <div class="bg-danger primary_bg">
+                <i class="fa-solid fa-location-dot primary_bg"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-12 d-none d-lg-flex">
+          <div class="parent-form">
+            <form method="post" class="form-part">
+              <div class="mb-3">
+                <input type="text" class="form-control" placeholder="الاسم الأول" />
+              </div>
+              <div class="mb-3">
+                <input type="text" class="form-control" placeholder="الاسم الثاني" />
+              </div>
+              <div class="mb-3">
+                <input type="email" class="form-control" placeholder="البريد الالكتروني" />
+              </div>
+              <div class="mb-3">
+                <input
+                  type="phone"
+                  dir="ltr"
+                  class="form-control text-end"
+                  placeholder="0555 555 55 55"
+                />
+              </div>
+              <div class="mb-3">
+                <textarea placeholder="الرسالة"></textarea>
+              </div>
+              <button class="btn btn-danger fs-5">
+                <a
+                  class="link-offset-2 link-underline link-underline-opacity-0 text-light"
+                  href="mailto:your@email.com?subject=Contact%20Form%20Submission&body=Email:%20"
+                  >ارسل</a
+                >
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
 </template>
 
 <style lang="scss" scoped>
