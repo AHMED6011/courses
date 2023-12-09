@@ -2,7 +2,7 @@
   <div class="content">
     <div class="bg-img d-flex justify-content-center">
       <div class="card mb-3 bg-transparent border-0">
-        <div class="row w-100 px-3 align-items-center justify-content-center">
+        <div class="row w-100 pt-5 pt-md-0 px-3 align-items-center justify-content-center">
           <div class="col-md-5 col-12 custom-img">
             <img :src="blogs.image" class="img-fluid" alt="" />
           </div>

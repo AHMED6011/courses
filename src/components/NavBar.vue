@@ -49,25 +49,27 @@
               </button>
               <ul class="dropdown-menu text-center">
                 <li>
-                  <RouterLink class="dropdown-item fs-5" to="/courses"
+                  <RouterLink class="dropdown-item fs-5" to="/coursedetail/1" @click="$toUpCourses"
                     >دبلوم تسويق الكتروني</RouterLink
                   >
                 </li>
                 <li>
-                  <RouterLink class="dropdown-item fs-5" to="/courses"
+                  <RouterLink class="dropdown-item fs-5" to="/coursedetail/2" @click="$toUpCourses"
                     >كورس جرافيك ديزاين</RouterLink
                   >
                 </li>
                 <li>
-                  <RouterLink class="dropdown-item fs-5" to="/courses">دورات المحاسبه</RouterLink>
+                  <RouterLink class="dropdown-item fs-5" to="/coursedetail/3" @click="$toUpCourses"
+                    >دورات المحاسبه</RouterLink
+                  >
                 </li>
                 <li>
-                  <RouterLink class="dropdown-item fs-5" to="/courses"
+                  <RouterLink class="dropdown-item fs-5" to="/coursedetail/4" @click="$toUpCourses"
                     >كورس مونتاج Adobe Premiere</RouterLink
                   >
                 </li>
                 <li>
-                  <RouterLink class="dropdown-item fs-5" to="/courses"
+                  <RouterLink class="dropdown-item fs-5" to="/coursedetail/5" @click="$toUpCourses"
                     >دورة كتابة المحتوى الاحترافي</RouterLink
                   >
                 </li>
@@ -79,7 +81,7 @@
             </li>
 
             <li class="nav-item">
-              <a class="nav-link text-white" href="#about-us">من نحن</a>
+              <a class="nav-link text-white" href="/about-us">من نحن</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-white" href="#singup-section">اتصلوا بنا</a>
@@ -125,7 +127,7 @@
               </li>
 
               <li class="nav-item">
-                <a class="nav-link text-white" href="#about-us">من نحن</a>
+                <a class="nav-link text-white" href="/about-us">من نحن</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link text-white" href="#singup-section">اتصلوا بنا</a>
@@ -143,25 +145,42 @@
                   class="custom-dropdown-menu dropdown-menu gap-2 bg-transparent border-0 text-end"
                 >
                   <li>
-                    <RouterLink class="dropdown-item fs-5" to="/courses"
+                    <RouterLink
+                      class="dropdown-item fs-5"
+                      to="/coursedetail/1"
+                      @click="$toUpCourses"
                       >دبلوم تسويق الكتروني</RouterLink
                     >
                   </li>
                   <li>
-                    <RouterLink class="dropdown-item fs-5" to="/courses"
+                    <RouterLink
+                      class="dropdown-item fs-5"
+                      to="/coursedetail/2"
+                      @click="$toUpCourses"
                       >كورس جرافيك ديزاين</RouterLink
                     >
                   </li>
                   <li>
-                    <RouterLink class="dropdown-item fs-5" to="/courses">دورات المحاسبه</RouterLink>
+                    <RouterLink
+                      class="dropdown-item fs-5"
+                      to="/coursedetail/3"
+                      @click="$toUpCourses"
+                      >دورات المحاسبه</RouterLink
+                    >
                   </li>
                   <li>
-                    <RouterLink class="dropdown-item fs-5" to="/courses"
+                    <RouterLink
+                      class="dropdown-item fs-5"
+                      to="/coursedetail/4"
+                      @click="$toUpCourses"
                       >كورس مونتاج Adobe Premiere</RouterLink
                     >
                   </li>
                   <li>
-                    <RouterLink class="dropdown-item fs-5" to="/courses"
+                    <RouterLink
+                      class="dropdown-item fs-5"
+                      to="/coursedetail/5"
+                      @click="$toUpCourses"
                       >دورة كتابة المحتوى الاحترافي</RouterLink
                     >
                   </li>

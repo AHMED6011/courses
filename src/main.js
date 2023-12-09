@@ -12,6 +12,13 @@ app.config.globalProperties.$toUp = () => {
   window.scrollTo(0, 0)
 }
 
+app.config.globalProperties.$toUpCourses = () => {
+  window.scrollTo(0, 0)
+  setTimeout(() => {
+    location.reload()
+  }, 100)
+}
+
 app.use(router)
 
 app.mount('#app')
