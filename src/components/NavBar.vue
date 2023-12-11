@@ -81,10 +81,10 @@
             </li>
 
             <li class="nav-item">
-              <button class="nav-link text-white" @click="goToAbout">من نحن</button>
+              <button class="nav-link text-white" @click.prevent="goToAbout">من نحن</button>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="#singup-section">اتصلوا بنا</a>
+              <button class="nav-link text-white" @click.prevent="goToContact">اتصلوا بنا</button>
             </li>
           </ul>
           <div class="logo d-none d-md-flex">
@@ -106,7 +106,7 @@
         <div class="offcanvas-header me-4 mt-4">
           <button
             type="button"
-            class="btn-close bg-danger"
+            class="btn-close show"
             data-bs-dismiss="offcanvas"
             aria-label="Close"
           ></button>
@@ -127,10 +127,10 @@
               </li>
 
               <li class="nav-item">
-                <button class="nav-link text-white" @click="goToAbout">من نحن</button>
+                <button class="nav-link text-white" @click.prevent="goToAbout">من نحن</button>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="#singup-section">اتصلوا بنا</a>
+                <button class="nav-link text-white" @click.prevent="goToContact">اتصلوا بنا</button>
               </li>
               <li class="nav-item position-relative">
                 <button
@@ -202,11 +202,20 @@ export default {
   methods: {
     goToAbout() {
       if (window.innerWidth <= 567) {
+        this.$router.push('/')
         window.scrollTo(0, 6000)
-        console.log('We Got It With 567')
       } else {
+        this.$router.push('/')
         window.scrollTo(0, 3000)
-        console.log('We Got It With Normal Width')
+      }
+    },
+    goToContact() {
+      if (window.innerWidth <= 567) {
+        this.$router.push('/')
+        window.scrollTo(0, 7800)
+      } else {
+        this.$router.push('/')
+        window.scrollTo(0, 4000)
       }
     }
   }
