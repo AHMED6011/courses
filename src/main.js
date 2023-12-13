@@ -9,13 +9,8 @@ import router from './router'
 const app = createApp(App)
 
 app.config.globalProperties.$toUp = () => {
-  window.scrollTo(0, 0)
-}
-
-app.config.globalProperties.$toUpCourses = () => {
-  window.scrollTo(0, 0)
   setTimeout(() => {
-    location.reload()
+    window.scrollTo(0, 0)
   }, 100)
 }
 

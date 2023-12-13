@@ -108,7 +108,7 @@
           إن ملء طلب التسجل مجاني، هو فقط يقربك خطوة من التعرف علينا و يمدنا بفرصة أن نقدم لك خدمة
           معرفية مميزة تبقى و تستمر
         </p>
-        <RouterLink class="btn my-5 btn-danger fs-4" :to="{ name: 'signup' }"
+        <RouterLink class="btn my-5 btn-danger fs-4" :to="{ name: 'signup' }" @click="$toUp"
           >طلب التسجيل الالكتروني</RouterLink
         >
       </div>
